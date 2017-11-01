@@ -1,0 +1,43 @@
+.list .list-radio-body{
+    position: relative;
+    background-color: #fff;
+    border-top: none;
+}
+.list .list-radio-item:hover {
+    background-color: #ddd;
+}
+.list-radio-item{
+    position: relative;
+    display: flex;
+    padding-left: 15px;
+    min-height: 45px;
+    background-color: #fff;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    align-items: center;
+}
+.am-radio-inner {
+  display: block;
+  position: absolute;
+  right: 15px;
+  top:15px;
+  width: 15px;
+  height: 15px;
+  transform: rotate(0deg);
+}
+.am-sub-menu-item-selected .am-radio-inner::after {
+display: block;
+border-color: #108ee9;
+position: absolute;
+top: -3px;
+right: 2px;
+z-index: 999;
+width: 7px;
+height: 14px;
+border-style: solid;
+border-width: 0 2px 2px 0;
+content: " ";
+-webkit-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+}

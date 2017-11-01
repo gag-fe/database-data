@@ -1,0 +1,194 @@
+.signpost-header{
+    padding: 10px 0px;
+    padding-left: 0px;
+    margin: 0px auto;
+}
+.signpost-body > div{
+    overflow: hidden;
+}
+.signpost-header div{
+    display: inline-block;
+    padding: 15px;
+    width: 100%;
+    background-color: rgba(36, 39, 45, 0.03);
+}
+.signpost-header div.active{
+    background-color: rgba(36, 39, 45, 0.18);
+}
+.signpost-header div a{
+    margin-left: 5px;
+    font-size: 17px;
+}
+.signpost-header div i{
+    color: #2db7f5;
+}
+.info-anoum-title-fix{
+    float: right;
+}
+.padding-20{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.metrices span.title{
+    font-size: 14px;
+}
+.affiliate{
+    display: none;
+}
+.cpm{
+    display: none;
+}
+.childrenBtn{
+    position: absolute;
+    left: 0px;
+    top: 30px;
+}
+.fix-hight > span{
+    height: 32px;
+    font-size: 14px;
+}
+
+
+
+.metric-panel {
+    float: left;
+    width: 33%;
+    text-align: center;
+    white-space: nowrap;
+    word-wrap: normal;
+    word-break: keep-all;
+}
+
+.metric-panel .split-line {
+    font-size: 0;
+    height: 0;
+    line-height: 0;
+    clear: both;
+    border-top: 1px solid #eee;
+}
+
+.metric-panel .metric-panel-body {
+    height: 120px;
+    margin: 8px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.metric-panel .metric-panel-body:hover {
+    box-shadow: 0 0px 10px rgb(3, 169, 244);
+}
+
+.metric-panel .go-up {
+    color: #ff9800;
+}
+
+.metric-panel .go-down {
+    color: #4caf50;
+}
+
+.metric-panel .split-line {
+    margin: 8px -12px;
+}
+
+.metric-title,
+.metric-change,
+.metric-number {
+    width: 50%;
+    float: left;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.metric-panel .metric-number {
+    font-size: 16px;
+    font-weight: normal;
+    border-left: 1px solid  #eee;
+}
+
+.metric-panel .metric-number:first-child {
+    border: 0 none;
+}
+
+.metric-panel .metric-number p {
+    margin: 0;
+}
+
+.metric-panel .metric-number .date-range {
+    height: 18px;
+    line-height: 18px;
+    font-size: 12px;
+}
+
+.metric-panel .metric-number .num-area {
+    height: 40px;
+    line-height: 40px;
+}
+
+.detai-info{
+    margin-bottom: 20px;
+}
+
+.table-wrapper-outer{
+    overflow: auto;
+}
+.table-wrapper{
+    width: 100%;
+    overflow-x: scroll;
+    margin-top: 10px;
+}
+
+.table-wrapper th {
+    white-space: nowrap;
+    word-wrap: normal;
+    word-break: keep-all;
+}
+.text-muted {
+    color: #777;
+    padding-left: 20px;
+}
+.boudle-datepicker{
+    float: right;
+}
+
+.info-anoum {
+    position: relative;
+    padding: 1px;
+}
+
+.info-anoum-title {
+    position: absolute;
+    right: 5px;
+}
+
+.info-anoum-body {
+    margin-top: 30px;
+}
+
+.metrices{
+    margin-bottom: 30px;
+}
+
+.kpi-page{
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.fix-zIndex{
+    z-index: 2;
+}
+.site-metric-page{
+    margin-top: 30px;
+    overflow: hidden;
+}
+.site-mertic-title{
+    font-size: 18px;
+}
+.title-15{
+    font-size: 15px;
+}
+.fix-zIndex{
+    height: 75px;
+}
+

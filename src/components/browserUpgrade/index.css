@@ -1,0 +1,58 @@
+.browser-upgrade {
+  height: 385px;
+  overflow: hidden;
+}
+.dialog-brwosers-wrap {
+	margin: 0 0 0 20px;
+	text-align: center;
+}
+
+.dialog-brwosers-wrap ul {
+	list-style-type: none;
+	float: left;
+}
+
+.dialog-brwosers-wrap li {
+	float: left;
+	display: table;
+	width: 185px;
+	height: 170px;
+	line-height: 24px;
+	margin-left: 0;
+}
+
+.dialog-brwoser-detail {
+	display:table-cell;
+	vertical-align: bottom;
+}
+
+.dialog-brwosers-wrap .chrome-icon {
+	background-image: url('img/Chrome.jpeg');
+	background-position: 45px 30px;
+	background-repeat: no-repeat;
+  background-size:50%;
+}
+
+.dialog-brwosers-wrap .safe-icon {
+	background-image: url('img/360.jpg');
+	background-position: 45px 30px;
+	background-repeat: no-repeat;
+}
+
+.dialog-brwosers-wrap .firefox-icon {
+	background-image: url('img/Firefox.jpeg');
+	background-position: 45px 30px;
+	background-repeat: no-repeat;
+  background-size:50%;
+}
+.dialog-brwosers-wrap .ie11-icon{
+  background-image: url('img/ie_11_56x56.png');
+  background-position: 45px 30px;
+  background-repeat: no-repeat;
+  background-size:50%;
+}
+
+.dialog-brwoser-button {
+	text-align: center;
+	margin-top:30px;
+}

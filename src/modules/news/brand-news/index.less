@@ -1,0 +1,129 @@
+#PullDown {
+  margin:0px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  line-height: 40px;
+}
+
+#PullUp {
+  margin:0px;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  background-color: white;
+  line-height: 40px;
+}
+
+#ListOutsite {
+  position:relative;
+}
+
+#ListInside {
+  list-style: none;
+  margin:0;
+  padding:0;
+  min-height: 150%;
+}
+
+#ListInside li {
+  height: 80px;
+  padding: 0 10%;
+  width: 80%;
+  vertical-align: middle;
+  line-height: 80px;
+  font-size: 18px;
+  border: 1px solid lightsteelblue;
+  overflow: hidden;
+  background-color: blanchedalmond;
+}
+.brand-list{
+  display: block;
+  min-height: 600px;
+  .brand-list-time{
+    color: #999;
+  }
+}
+.brand-list .brand-list-name{
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.brand-list .brand-list-name a{
+  font-size: 16px;
+}
+.brand-list .brand-list-content{
+  margin-top: 10px;
+}
+.brand-list .brand-list-property{
+  display: block;
+  margin-right: 200px;
+  height: 64px;
+  margin-top: 20px;
+}
+
+.brand-list .brand-list-property .property-label{
+  /*display: inline-block;*/
+}
+.brand-list .brand-list-property .property-vote{
+  float: right;
+}
+
+.brand-list em{
+  color: #f46e65;
+  font-style: normal;
+}
+
+.brand-list .property-label {
+  display: inline-block;
+}
+
+.ant-menu-submenu-inline>.ant-menu-submenu-title:after {
+  -webkit-transform: scale(.66666667) rotate(270deg);
+  -ms-transform: rotate(270deg) scale(0.75);
+  transform: scale(.66666667) rotate(270deg);
+}
+
+.ant-menu-submenu-open.ant-menu-submenu-inline > .ant-menu-submenu-title:after {
+  -webkit-transform: rotate(0deg) scale(0.75);
+  -ms-transform: rotate(0deg) scale(0.75);
+  transform: rotate(0deg) scale(0.75);
+}
+//品牌关注
+.brand-subscrib{
+  .tag-warp{
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    height: 24px;
+  }
+  .tag-warp.current label{
+    background: #f3f3f3;
+    border: 1px solid #e9e9e9;
+    border-radius: 4px;
+    padding: 4px;
+    overflow: hidden;
+    z-index: 9;
+    line-height: 20px;
+    height: 20px;
+  }
+  .layer-button{
+    display: none;
+    position: absolute;
+    top:24px;
+    right: 0;
+    background: #FFFFFF;
+    width: 93px;
+    z-index: 999;
+  }
+  .tag-warp:hover{
+    .layer-button{
+      display: block;
+    }
+    .layer-button:hover{
+      display: block;
+    }
+  }
+}
